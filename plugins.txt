@@ -1,0 +1,13 @@
+dashboard-view
+cloudbees-folder
+build-name-setter
+build-timeout
+timestamper
+ws-cleanup
+workflow-aggregator
+parameterized-trigger
+copyartifact
+git
+git-parameter
+ssh
+publish-over-ssh
