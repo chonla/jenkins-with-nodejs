@@ -1,0 +1,2 @@
+./docker/jenkins/home/
+!./docker/jenkins/home/bypass.groovy

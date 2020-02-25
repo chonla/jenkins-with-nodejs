@@ -1,8 +1,9 @@
-FROM jenkins/jenkins:latest
+FROM jenkins/jenkins:2.222
 
-ADD . /opt
+ADD ./data /opt
 WORKDIR /opt
 
+# Install plugins
 RUN /usr/local/bin/install-plugins.sh < /opt/plugins.txt
 
 USER root
