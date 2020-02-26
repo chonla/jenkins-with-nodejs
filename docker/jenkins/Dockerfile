@@ -16,4 +16,7 @@ RUN apt-get -y update -y \
 RUN curl -sL https://deb.nodesource.com/setup_13.x | bash - \
     && apt-get install -y nodejs
 
+# Install vue cli
+RUN npm install -g @vue/cli
+
 USER jenkins
