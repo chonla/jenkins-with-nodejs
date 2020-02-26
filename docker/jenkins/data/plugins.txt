@@ -11,3 +11,4 @@ git
 git-parameter
 ssh
 publish-over-ssh
+greenballs
